@@ -4,7 +4,6 @@ npm-debug.log
 .bundle/
 .dotcloud/*
 config.sh
-.idea/*
 *.swp
 public/javascripts/pages/account-plugins-compiled.js
 public/javascripts/pages/plugin-config-compiled.js
@@ -18,3 +17,8 @@ public/stylesheets/css/plugin-status-compiled.css
 test/last-shot
 /coverage
 /failures
+
+# Exclude VCS mappings, every developer has their own.
+.idea/vcs.xml
+# Exclude the workspace, it's developer-specific.
+.idea/workspace.xml
