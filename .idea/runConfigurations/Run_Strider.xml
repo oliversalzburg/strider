@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run Strider" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="node" path-to-js-file="bin/strider" application-parameters="--no-cluster" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="SERVER_NAME" value="http://localhost:3000" />
+    </envs>
+    <method />
+  </configuration>
+</component>
